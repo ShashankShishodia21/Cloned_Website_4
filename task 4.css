@@ -1,0 +1,328 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+    background: linear-gradient(to bottom, rgb(147, 232, 255), rgb(155, 180, 255));
+}
+.leftnav {
+    display: flex;
+    background-color: white;
+    padding: 10px 380px 10px 20px;
+}
+.header img{
+    height: 60px;
+    padding: 5px 20px 5px 20px;
+}
+.header h1{
+    background-color: white;
+    color: rgba(58, 58, 58, 0.937);
+    font-size: 2em;
+    padding: 20px;
+}
+.rightnav{
+    background: linear-gradient(to bottom, rgb(147, 232, 255), rgb(155, 180, 255));
+    padding: 20px 0px 10px 110px;
+}
+.rightnav ul{
+    display: flex;
+    padding-top: 20px;
+}
+.rightnav a{
+    color: black;
+
+}
+.rightnav b{
+    padding: 20px 40px 20px 20px;
+}
+.rightnav b:hover{
+    border-bottom: 1px solid black;
+    padding: 20px 20px 20px 20px;
+    transition: 0.5s;
+}
+.section1{
+    padding: 25px 45px 25px 45px;
+    background: url(Task4images/cover\ \(1\).jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.section1-div {
+    font-family:"ABeeZee";
+    margin: 180px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(2px);
+    text-align: center;
+}
+.section1-div h1{
+    font-size: 5em;
+    color: white;
+    padding: 20px;
+}
+.section1-div h2{
+    font-size: 3em;
+    color: white;
+    padding: 0px 20px 20px 20px;
+}
+.section1-div h3{
+    font-size: 1.5em;
+    color: white;
+    padding: 0px 20px 20px 20px;
+}
+.section1-div button{
+    background-color: white;
+    color: black;
+    font-size: 1.2em;
+    padding: 10px;
+    box-shadow: white;
+    border: 1px solid white;
+}
+.section1-div button:hover{
+    box-shadow: 0px 0px 15px white;
+}
+.section2{
+    background-color: white;
+    font-family:"Poppins";
+}
+.sec2div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.sec2pt{
+    background:linear-gradient(to bottom, rgb(147, 232, 255), rgb(155, 180, 255));
+    text-align: center;
+    width: 450px;
+    height: 250px;
+    margin: 50px 20px 50px 20px;
+}
+.sec2pt img{
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+    height: 40px;
+    width: 60px;
+    background-color: white;
+}
+.sec2pt h1{
+    padding: 10px;
+    font-size: 1.5em;
+}
+.sec2pt p{
+    padding: 5px;
+}
+.section3{
+    display: flex;
+    background-color: black;
+    font-family:"ABeeZee";
+}
+.section3 img{
+    height: 500px;
+    width: 750px;
+}
+.section3 h2{
+    color: white;
+    font-size: 1.2em;
+    padding: 30px 30px 10px 30px;
+}
+.section3 h1{
+    color:rgb(155, 180, 255);
+    padding: 0px 30px 0px 30px;
+    font-size: 2.2em;
+    letter-spacing: 1px;
+
+}
+.section3 p {
+    color: rgb(167, 166, 166);
+    padding: 30px 30px 10px 30px;
+    margin-bottom: 40px;
+    font-size: 1em;
+}
+.section3 a{
+    background:linear-gradient(to bottom, rgb(147, 232, 255), rgb(155, 180, 255));
+    color: black;
+    padding: 5px 10px 5px 10px;
+    margin: 30px;
+    border-radius: 5px;
+}
+.section3 a:hover{
+    box-shadow: 0px 0px 15px white;
+}
+.section5{
+    display: flex;
+    background-color: white;
+    font-family:"Poppins";
+}
+.section5 img{
+    height: 500px;
+    width: 750px;
+    background:linear-gradient(to bottom, rgb(147, 232, 255), rgb(155, 180, 255));
+}
+.section5 h2{
+    color: black;
+    font-size: 1.5em;
+    padding: 30px 30px 10px 30px;
+}
+.section5 h1{
+    color:rgb(155, 180, 255);
+    padding: 0px 30px 0px 30px;
+    font-size: 2.2em;
+    letter-spacing: 1px;
+
+}
+.section5 p {
+    color: rgb(68, 66, 66);
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+.section5 a{
+    background:linear-gradient(to bottom, rgb(147, 232, 255), rgb(155, 180, 255));
+    color: black;
+    padding: 5px 10px 5px 10px;
+    margin: 30px;
+    border-radius: 5px;
+}
+.section5 a:hover{
+    box-shadow: 0px 0px 15px rgba(202, 196, 196, 0.51);
+}
+.section6 {
+    background-color: white;
+}
+.section6 h1{
+    text-align: center;
+    font-size: 3em;
+    padding: 20px;
+    font-family:"Poppins";
+}
+.sec6maindiv {
+    display: flex;
+    justify-content: center;
+}
+.sec6div1 {
+    display: flex;
+    border-radius: 15px;
+    background:linear-gradient(to bottom, rgb(147, 232, 255), rgb(155, 180, 255));
+    margin: 30px;
+    height: 150px;
+    width: 450px;
+    margin-bottom: 100px;
+}
+.sec6div1 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    padding-right: 10px;
+}
+.sec6div1 h2{
+    padding: 20px 15px 20px 15px;
+    font-size: 2em;
+    font-family:"Poppins";
+}
+.sec6div1 p{
+    padding: 0px 15px 20px 15px;
+    font-size: 1.5em;
+    font-family:"Poppins";
+}
+.section7 h1{
+    text-align: center;
+    padding: 30px;
+    font-size: 2em;
+    color: rgb(125, 123, 123);
+    font-family:"Poppins";
+}
+.sec7pt1{
+    background-color: white;
+}
+.sec7pt2 {
+    height: 100px;
+    width: 450px;
+    background:linear-gradient(to bottom, rgb(147, 232, 255), rgb(155, 180, 255));
+    padding: 40px;
+    margin: 20px 40px 20px 140px;
+    border-radius: 5px;
+}
+.sec7pt3 {
+    height: 100px;
+    width: 450px;
+    background:linear-gradient(to bottom, rgb(147, 232, 255), rgb(155, 180, 255));
+    padding: 30px;
+    margin: 20px 40px 20px 840px;
+    border-radius: 5px;
+}
+.section8 h2{
+    font-size: 3em;
+    font-family: "ABeeZee";
+    color: rgb(155, 180, 255);
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+.sec8div{
+    display: flex;
+    justify-content: center;
+    background:linear-gradient(to bottom, rgb(147, 232, 255), rgb(155, 180, 255));
+    padding: 40px;
+    margin: 0px 300px 80px 300px;
+    border-radius: 15px;
+}
+.sec8div form{
+    padding: 0px 20px 10px 20px;
+    margin: 0px 60px 0px 20px;
+}
+.sec8div input{
+    border: 1px solid white;
+    background-color: white;
+    margin: 10px 0px 10px 0px;
+    border-radius: 5px;
+    padding: 5px 150px 5px 20px;
+    font-family:"Poppins";
+}
+.sec8div a{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding:5px 140px 5px 140px;
+    text-align: center;
+    font-family:"Poppins";
+}
+.sec8div div{
+    margin-top:30px ;
+}
+.sec8div img{
+    width: 25px;
+}
+.sec8div h1:hover{
+    color: white;
+    transition: 0.5s;
+}
+.footer {
+    border-top: 1px solid grey;
+    font-size: 1em;
+    font-family:"Poppins";
+    color: black;
+    text-align: center;
+}
+.footer img{
+    width: 35px;
+    padding-right: 10px;
+}
+.contact a{
+    background-color: white;
+    color: gray;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    position: fixed;
+    bottom: 0;
+    z-index: 999999;
+}
