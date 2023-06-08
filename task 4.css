@@ -10,6 +10,7 @@ a {
     position: sticky;
     top: 0;
     z-index: 999999;
+    font-family: Poppins;
     background: linear-gradient(to bottom, rgb(147, 232, 255), rgb(155, 180, 255));
 }
 .leftnav {
@@ -87,6 +88,7 @@ a {
 }
 .section1-div button:hover{
     box-shadow: 0px 0px 15px white;
+    transition: 0.3s;
 }
 .section2{
     background-color: white;
