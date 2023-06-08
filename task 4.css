@@ -10,7 +10,7 @@ a {
     position: sticky;
     top: 0;
     z-index: 999999;
-    font-family: Poppins;
+    font-family: "Poppins";
     background: linear-gradient(to bottom, rgb(147, 232, 255), rgb(155, 180, 255));
 }
 .leftnav {
@@ -85,6 +85,7 @@ a {
     padding: 10px;
     box-shadow: white;
     border: 1px solid white;
+    border-radius: 5px;
 }
 .section1-div button:hover{
     box-shadow: 0px 0px 15px white;
